@@ -1,6 +1,8 @@
+import java.util.Scanner; 
+
 /**
  *
- * @author 
+ * @author Neil Fischer
  */
 public class Main {
 
@@ -9,7 +11,19 @@ public class Main {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    // TODO code application logic here
+    Scanner input = new Scanner(System.in);  
+
+    System.out.println("Please enter a positive integer to see the FizzBuzz numbers"); 
+
+    // declare variable for number increase 
+    int count = 0;  
+    // declare variable for user input 
+    int userNum = input.nextInt(); 
+
+    while(count <= 10){
+      count = count + 1; 
+      if(count == )
+    }
     
   }
 }
